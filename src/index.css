@@ -9,7 +9,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FBFBFB;
+
+
 }
+
+.App {
+  transition: all 2s ease-in-out !important;
+}
+
 
 [class^="ant-form"],
 [class*=" ant-form"] {
@@ -79,4 +86,43 @@ body {
 .ant-menu-horizontal .ant-menu-item,
 .ant-menu-horizontal .ant-menu-submenu {
   padding-inline: 35px;
+}
+
+.ant-menu-item,
+.ant-btn {
+  font-family: 'Roboto Condensed' !important;
+}
+
+.ant-menu-title-content {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #d9363e;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+}
+
+.ant-badge .ant-badge-multiple-words {
+  padding: 0 15px;
+  color: #333;
+  font-size: 14px;
+  height: 33px;
+  line-height: 33px;
+  border-radius: 50px;
+}
+
+.jobs .ant-card {
+  margin-bottom: 1rem;
+}
+
+.jobs .ant-card .ant-card-body {
+  padding-top: 14px;
+}
+
+.jobs .ant-card .ant-card-head {
+  min-height: 50px;
 }

@@ -35,8 +35,6 @@
   position: absolute;
   width: 33px;
   height: 33px;
-
-  right: -15px;
 }
 
 .sidebar-toggler .bg-icon {
@@ -53,11 +51,115 @@
   border-radius: 50%;
 }
 
+.sidebar .ant-form-item {
+  margin-bottom: 40px;
+}
+
 .sidebar :where(.css-dev-only-do-not-override-diro6f).ant-select:not(.ant-select-customize-input) .ant-select-selector,
 .sidebar .search-input {
   border: none;
   border-bottom: 2px solid #434343;
   border-radius: 0;
+}
+
+
+.header-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30%;
+}
+
+.header-sort .ant-form-item {
+  margin-bottom: 0;
+}
+
+.header-sort .ant-select-selector {
+  background: transparent;
+}
+
+.order-by {
+  margin-left: 2rem;
+}
+
+.job-card-title {
+  color: #CB0000;
+  margin: 0
+}
+
+
+
+.number-applicants {
+  font-family: 'Roboto Condensed' !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8B8B8B;
+
+}
+
+.card-info-label span {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #CB0000;
+}
+
+.card-info-value {
+  margin-top: 1rem;
+}
+
+.card-info-value span {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #434343;
+}
+
+.card-footer {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.card-footer svg {
+  fill: #CB0000;
+  font-size: 20px;
+  /* margin-top: 2px; */
+  margin-right: 0.8rem;
+}
+
+.rotation {
+  position: absolute;
+  top: 90px;
+  left: -10px;
+  transform: rotate(-90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
 }
 
 @keyframes App-logo-spin {

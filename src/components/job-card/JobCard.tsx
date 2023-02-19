@@ -27,9 +27,10 @@ type Props = {
       email: string;
     };
   };
+  style?: any;
 };
 
-export const JobCard = ({ job }: Props) => {
+export const JobCard = ({ job, style }: Props) => {
   return (
     <Card
       title={
@@ -50,6 +51,7 @@ export const JobCard = ({ job }: Props) => {
         </div>
       }
       bordered={false}
+      style={style}
     >
       <p style={{ margin: 0 }} className="number-applicants">
         Number of Applicants: {job.applicants}
@@ -94,8 +96,9 @@ export const JobCard = ({ job }: Props) => {
               <span>Languages</span>
             </div>
             <div className="card-info-value">
-              {job.languages.map((lg) => (
+              {job.languages.map((lg, i) => (
                 <Badge
+                  key={i}
                   count={lg}
                   size="default"
                   style={{

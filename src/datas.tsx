@@ -48,3 +48,20 @@ export const jobs = [
     },
   },
 ];
+
+export const job = {
+  title: "Test",
+  applicants: 2,
+  country: "France",
+  dutyStation: "Paris",
+  type: "Full-time",
+  status: "International consultant",
+  languages: ["English", "French"],
+  openingDate: "10 Febuary 2023",
+  closingDate: "10 March 2023",
+  Organization: "IMMAP",
+  creator: {
+    name: "(Murhula Metre)",
+    email: "asyaifa@immap.org",
+  },
+};

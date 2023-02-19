@@ -19,6 +19,7 @@
   color: #FA2F2F;
 
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .clear {
@@ -29,12 +30,14 @@
 
 
   color: #A4A4A4;
+  cursor: pointer;
 }
 
 .sidebar-toggler {
   position: absolute;
   width: 33px;
   height: 33px;
+  cursor: pointer;
 }
 
 .sidebar-toggler .bg-icon {
@@ -123,7 +126,7 @@
 }
 
 .card-info-value {
-  margin-top: 1rem;
+  margin-top: .4rem;
 }
 
 .card-info-value span {
@@ -160,6 +163,16 @@
 
 .rotate-180 {
   transform: rotate(180deg);
+}
+
+.sidebar .sidebar-collapsed {
+  transition: all 2s ease-in-out;
+  width: 50px;
+}
+
+.sidebar .sidebar-full {
+  transition: all 5s ease-in-out;
+  width: 300px;
 }
 
 @keyframes App-logo-spin {

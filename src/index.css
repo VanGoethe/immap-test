@@ -115,6 +115,24 @@ body {
   border-radius: 50px;
 }
 
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+  border-color: #f5222d;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+  background-color: #f5222d;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled),
+.ant-radio-button-wrapper:hover {
+  color: #f5222d;
+  border-color: #f5222d;
+}
+
 .jobs .ant-card {
   margin-bottom: 1rem;
 }

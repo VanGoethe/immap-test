@@ -6,6 +6,18 @@
   line-height: 19px;
   /* identical to box height */
   color: #545454;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.rotation {
+  position: absolute;
+  top: 90px;
+  left: -10px;
+  transform: rotate(-90deg);
+  transition: all .2s ease-in-out;
 }
 
 .clear-all {
@@ -18,8 +30,10 @@
 
   color: #FA2F2F;
 
-  margin-right: 10px;
+  /* margin-right: 10px; */
   cursor: pointer;
+  position: absolute;
+  right: 35px;
 }
 
 .clear {
@@ -154,25 +168,23 @@
   margin-right: 0.8rem;
 }
 
-.rotation {
-  position: absolute;
-  top: 90px;
-  left: -10px;
-  transform: rotate(-90deg);
-}
-
 .rotate-180 {
   transform: rotate(180deg);
 }
 
-.sidebar .sidebar-collapsed {
-  transition: all 2s ease-in-out;
+.sidebar.sidebar-collapsed {
+  transition: all .5s ease-in-out;
   width: 50px;
 }
 
-.sidebar .sidebar-full {
-  transition: all 5s ease-in-out;
-  width: 300px;
+.sidebar.sidebar-full {
+  transition: all .5s ease-in-out;
+  width: 330px;
+}
+
+.d-none {
+  transition: all .5s ease-in-out;
+  display: none;
 }
 
 @keyframes App-logo-spin {

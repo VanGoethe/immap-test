@@ -17,7 +17,7 @@ export const HeaderLayout = ({ setActiveTab, activeTab }: Props) => {
 
   const items: MenuProps["items"] = [
     {
-      label: "Job Card Component",
+      label: "Reusable Job Card Component",
       key: "job",
     },
     {

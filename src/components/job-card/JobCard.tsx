@@ -136,7 +136,7 @@ export const JobCard = ({ job, style }: Props) => {
           </Col>
         </Row>
       </div>
-      <div style={{ marginTop: "1rem" }}>
+      <div className="action-buttons" style={{ marginTop: "1rem" }}>
         <Row gutter={10}>
           <Col className="gutter-row" xs={24} sm={24} md={12} lg={12} xl={4}>
             <Button
